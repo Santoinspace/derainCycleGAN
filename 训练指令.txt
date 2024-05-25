@@ -1,0 +1,8 @@
+
+测试：
+CUDA_VISIBLE_DEVICES=0,1,2,3 python3 test.py --test_path ../datasets --name Rain100L --resume ../results/Rain100L/net_best_Rain100L.pth --mode 1
+
+python test.py --test_path ../datasets --name Rain100L --resume ../results/Rain100L/net_best_Rain100L.pth --mode 1
+
+训练；
+python train.py --train_path ../datasets/rainy_Rain100L --val_path ../datasets/test_rain100L --name Rain100L

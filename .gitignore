@@ -1,0 +1,8 @@
+/datasets/*
+/figures/*
+/logs/*
+/outputs/*
+/results/*
+__pycache__
+/statistic/*
+/vgg16/*
